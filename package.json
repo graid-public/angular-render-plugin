@@ -2,7 +2,7 @@
   "name": "rete-angular-render-plugin",
   "version": "0.2.3",
   "scripts": {
-    "ng": "ng",
+    "prepare": "npm run build",
     "build": "ng-packagr",
     "build:dev": "ng-packagr --watch",
     "prepublishOnly": "npm run build"
